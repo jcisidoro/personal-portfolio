@@ -1,0 +1,157 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* MOBILE DEVICE */
+/* NAVIGATION */
+@media (max-width: 639px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .nav-body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .nav-links {
+    display: none;
+    gap: 2rem;
+  }
+  .nav-links a,
+  li {
+    text-decoration: none;
+    list-style: none;
+    color: #051434;
+    font-size: large;
+  }
+  .logo-body {
+    display: flex;
+    gap: 0.8rem;
+    color: #051434;
+  }
+  .logo-name,
+  .logo {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .burger-menu {
+    font-size: 25px;
+    margin-right: 1rem;
+    color: #051434;
+    cursor: pointer;
+  }
+}
+
+/* MD DEVICE */
+@media (min-width: 40rem) {
+  /* NAVIGATION */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .nav-body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 7rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links a,
+  li {
+    text-decoration: none;
+    list-style: none;
+    color: #051434;
+    font-size: medium;
+  }
+  .logo-body {
+    display: flex;
+    gap: 1rem;
+    color: #051434;
+  }
+  .logo-name,
+  .logo {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+
+/* LG - XL DEVICE */
+@media (min-width: 64rem) {
+  /* NAVIGATION */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .nav-body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 7rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links a,
+  li {
+    text-decoration: none;
+    list-style: none;
+    color: #051434;
+    font-size: large;
+  }
+  .logo-body {
+    display: flex;
+    gap: 1rem;
+    color: #051434;
+  }
+  .logo-name,
+  .logo {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+
+/* GENERAL CSS */
+.logo {
+  font-family: "Chokokutai", sans-serif;
+}
+/* HERO */
+.hero {
+  background-color: #fff4dc;
+  height: 1700px;
+}
