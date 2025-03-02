@@ -1,0 +1,98 @@
+/************************/
+/* LG - XL DEVICE */
+/************************/
+@media (min-width: 64rem) {
+  /* NAVIGATION */
+  .nav-body {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    height: 7rem;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links a,
+  li {
+    text-decoration: none;
+    list-style: none;
+    color: #051434;
+    font-size: large;
+    margin-top: 1rem;
+  }
+  .logo-body {
+    display: flex;
+    gap: 1rem;
+    color: #051434;
+  }
+  .logo-name,
+  .logo {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .burger-menu {
+    display: none;
+  }
+
+  /* HERO */
+  .hero {
+    margin-top: 110px;
+    position: relative;
+    z-index: 1;
+    height: 550px;
+  }
+  .hero-body {
+    background-color: #fff4dc;
+    position: relative;
+    height: 500px;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+  }
+  .content1 {
+    padding: 2rem;
+    height: 100%;
+    width: 50%;
+    place-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .arrowUp-img {
+    display: block;
+    position: absolute;
+    top: 17%;
+    left: 4%;
+    width: 80px;
+    z-index: -1;
+  }
+  .hero-body h1 {
+    font-weight: 600;
+  }
+  .image-container {
+    background-color: #051434;
+    height: 55vh;
+    position: absolute;
+    bottom: -12%;
+    right: 7.5%;
+    width: 40vw;
+    z-index: 4;
+  }
+  .circle {
+    background-color: #d4c49c;
+    width: 55vw;
+    height: 500px;
+    border-radius: 50%;
+    clip-path: inset(0 0 50% 0);
+    position: absolute;
+    bottom: -50%;
+    right: 0;
+    z-index: 3;
+  }
+
+  /* COMPANY */
+  .compOrg-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2rem 4rem;
+  }
+}
