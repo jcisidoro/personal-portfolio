@@ -1,7 +1,7 @@
 /************************/
 /* SM DEVICE */
 /************************/
-@media (min-width: 40rem) {
+@media (width >= 40rem) {
   /* NAVIGATION */
   .nav-body {
     padding-left: 2rem;
@@ -66,10 +66,10 @@
   }
   .image-container {
     background-color: #051434;
-    height: 60vh;
+    height: 65vh;
     position: absolute;
     bottom: -10%;
-    width: 70vw;
+    width: 55vw;
     z-index: 4;
   }
   .circle {
@@ -88,5 +88,34 @@
     padding-top: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
+  }
+
+  /* ABOUT ME */
+  .about-me {
+    padding: 4rem;
+    background-color: #e6ebe4;
+  }
+  .about-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 4rem;
+  }
+  .about-img {
+    width: 80vw;
+    height: 450px;
+  }
+  .about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .about-img .dot-img {
+    display: none;
+  }
+  .about-paragraph h5 {
+    font-weight: 600;
+    margin-bottom: 2rem;
   }
 }

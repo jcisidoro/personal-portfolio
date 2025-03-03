@@ -1,7 +1,7 @@
 /************************/
 /* MOBILE DEVICE */
 /************************/
-@media (max-width: 639px) {
+@media (width < 40rem) {
   /* NAVIGATION */
   .nav-body {
     padding-left: 1.5rem;
@@ -84,7 +84,7 @@
     height: 60vh;
     position: absolute;
     bottom: -10%;
-    width: 70vw;
+    width: 65vw;
     z-index: 4;
   }
   .circle {
@@ -104,8 +104,38 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
   }
+
+  /* ABOUT ME */
+  .about-me {
+    padding: 2rem;
+    background-color: #e6ebe4;
+  }
+  .about-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 4rem;
+  }
+  .about-img {
+    width: 80vw;
+    height: 350px;
+  }
+  .about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .about-img .dot-img {
+    display: none;
+  }
+  .about-paragraph h5 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
 }
-@media (max-width: 450px) {
+
+@media (width < 451px) {
   .hero {
     height: 702px;
   }
@@ -127,5 +157,12 @@
   /* PROJECT */
   .compOrg-container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  /* ABOUT ME */
+  .about-img {
+    width: 80vw;
+    height: 350px;
+    background-color: #051434;
   }
 }

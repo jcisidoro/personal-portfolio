@@ -60,6 +60,7 @@
   align-content: center;
   padding: 2rem;
   flex-direction: column;
+  justify-content: center;
 }
 
 .company-body {
@@ -86,7 +87,12 @@
   height: 100px;
   filter: grayscale(100%);
 }
-
+.comembo-img span,
+.makati-img span,
+.bcda-img span,
+.sscgi-img span {
+  display: none;
+}
 .compOrg-img img {
   width: 100%;
   height: 100%;

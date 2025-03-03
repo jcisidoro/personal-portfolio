@@ -1,7 +1,7 @@
 /************************/
-/* LG DEVICE */
+/* XL DEVICE */
 /************************/
-@media (width >= 64rem) {
+@media (width >= 80rem) {
   /* NAVIGATION */
   .nav-body {
     padding-left: 6rem;
@@ -91,18 +91,41 @@
   }
 
   /* COMPANY */
+  .company-title {
+    font-size: xx-large;
+  }
+  .company-span {
+    font-size: large;
+  }
   .compOrg-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 2rem 4rem;
+  }
+  .comembo-img,
+  .makati-img,
+  .bcda-img,
+  .sscgi-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 200px;
+    height: 150px;
+  }
+  .comembo-img span,
+  .makati-img span,
+  .bcda-img span,
+  .sscgi-img span {
+    display: flex;
   }
 
   /* ABOUT ME */
   .about-paragraph {
     width: 40vw;
     height: 600px;
-    font-size: 15px;
+    font-size: medium;
   }
   .about-paragraph h5 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
