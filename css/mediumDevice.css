@@ -141,4 +141,39 @@
     display: flex;
     justify-content: center;
   }
+
+  /* CONTACT */
+  .contact {
+    height: 900px;
+    position: relative;
+  }
+  .contact-body {
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+    height: 50%;
+    position: relative;
+  }
+  .contact-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+  }
+  .contact-circle {
+    width: 400px;
+    height: 400px;
+    background-color: #d4c49c;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -44.5%;
+    right: 2%;
+    clip-path: inset(0 0 50% 0);
+  }
+  .form-body {
+    z-index: 1;
+    width: 50%;
+    height: 750px;
+    padding: 3rem;
+  }
 }

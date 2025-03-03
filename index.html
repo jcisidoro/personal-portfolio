@@ -38,9 +38,9 @@
         </div>
         <a class="burger-menu"> <i class="fa-solid fa-bars"></i></a>
         <ul class="nav-links">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About Me</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
@@ -253,14 +253,79 @@
     <!-- CONTACT -->
     <section class="contact">
       <div class="contact-body">
-        <span>Let's get in touch</span>
-        <p>Let's talk about you & your challenges.</p>
-        <span>Contact Information</span>
-        <ul>
-          <li>jpisidoro04@gmail.com</li>
-          <li>Taguig City</li>
-          <li>+63 991 978 5885</li>
-        </ul>
+        <div class="contact-intro">
+          <span>Let's get in touch</span>
+          <p>Let's talk about you & your challenges.</p>
+          <div class="info">
+            <h5>Contact Information</h5>
+            <span
+              ><i class="fa-solid fa-envelope"></i>jpisidoro04@gmail.com</span
+            >
+            <span
+              ><i class="fa-solid fa-location-dot"></i>Taguig City, Metro
+              Manila, Philippines</span
+            >
+            <span><i class="fa-solid fa-phone"></i>+63 991 978 5885</span>
+            <span><i class="fa-brands fa-github"></i>xjohnpatrick</span>
+          </div>
+        </div>
+
+        <!-- CIRCLE -->
+        <div class="contact-circle"></div>
+
+        <!-- FORM -->
+        <div class="form-body">
+          <h4>Send me a message</h4>
+          <div class="name-info">
+            <span>Your name</span>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingInput"
+                placeholder="Juan Dela Cruz"
+              />
+              <label for="floatingInput">Full name</label>
+            </div>
+          </div>
+          <div class="email-info">
+            <span>Your email</span>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+          </div>
+          <div class="phone-info">
+            <span>Your phone number</span>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                class="form-control"
+                id="floatingInput"
+                placeholder="+63 123 456 7890"
+              />
+              <label for="floatingInput">Phone number</label>
+            </div>
+          </div>
+          <div class="comment-info">
+            <span>Your comment</span>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingInput"
+                placeholder="Your comment"
+              />
+              <label for="floatingInput">Comment</label>
+            </div>
+          </div>
+          <button class="form-btn">Send my contact request</button>
+        </div>
       </div>
     </section>
     <script src="index.js"></script>
