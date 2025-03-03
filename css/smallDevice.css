@@ -118,4 +118,9 @@
     font-weight: 600;
     margin-bottom: 2rem;
   }
+
+  /* PROJECTS */
+  .card {
+    width: 80%;
+  }
 }

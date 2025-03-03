@@ -131,4 +131,14 @@
     font-weight: 600;
     margin-bottom: 2rem;
   }
+
+  /* PROJECTS */
+  .card {
+    width: 450px !important;
+    height: 450px !important;
+  }
+  .card-body {
+    display: flex;
+    justify-content: center;
+  }
 }

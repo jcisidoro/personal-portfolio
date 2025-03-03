@@ -126,6 +126,20 @@
     font-size: medium;
   }
   .about-paragraph h5 {
-    font-size: 40px;
+    font-size: 35px;
+  }
+
+  /* PROJECTS */
+  .project-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .card {
+    width: 350px !important;
+    height: 450px !important;
+  }
+  .card-body {
+    display: flex;
+    justify-content: center;
   }
 }

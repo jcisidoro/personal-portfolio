@@ -133,6 +133,11 @@
     font-weight: 600;
     margin-bottom: 2rem;
   }
+
+  /* PROJECTS */
+  .card {
+    width: 80%;
+  }
 }
 
 @media (width < 451px) {
@@ -154,7 +159,7 @@
     z-index: 3;
   }
 
-  /* PROJECT */
+  /* COMPANIES */
   .compOrg-container {
     grid-template-columns: 1fr 1fr;
   }
@@ -164,5 +169,10 @@
     width: 80vw;
     height: 350px;
     background-color: #051434;
+  }
+
+  /* PROJECTS */
+  .card {
+    width: 100%;
   }
 }

@@ -90,7 +90,7 @@
     z-index: 3;
   }
 
-  /* COMPANY */
+  /* COMPANIES */
   .compOrg-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 2rem 4rem;
@@ -104,5 +104,19 @@
   }
   .about-paragraph h5 {
     font-size: 30px;
+  }
+
+  /* PROJECTS */
+  .project-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card {
+    width: 350px !important;
+    height: 450px !important;
+  }
+  .card-body {
+    display: flex;
+    justify-content: center;
   }
 }

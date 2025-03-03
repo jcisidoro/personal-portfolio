@@ -38,16 +38,16 @@
         </div>
         <a class="burger-menu"> <i class="fa-solid fa-bars"></i></a>
         <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">About Me</a></li>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#aboutMe">About Me</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <!-- HERO PAGE -->
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="hero-body">
         <div class="content1">
           <img
@@ -58,7 +58,7 @@
           <h1>Welcome to my portfolio</h1>
           <h3>John Patrick Isidoro</h3>
 
-          <button class="hero-btn">Check my work</button>
+          <a class="hero-btn" href="#projects">Check my work</a>
         </div>
 
         <div class="image-container">
@@ -69,7 +69,7 @@
     </section>
 
     <!-- COMPANIES PAGE -->
-    <section class="company">
+    <section class="company" id="companies">
       <div class="company-body">
         <span class="company-title">Companies and Organizations</span>
         <img src="images/wave.png" alt="Wave Image" class="img-wave" />
@@ -101,7 +101,7 @@
     </section>
 
     <!-- ABOUT ME -->
-    <section class="about-me">
+    <section class="about-me" id="aboutMe">
       <div class="about-body">
         <div class="about-img">
           <img src="images/dots.png" alt="Dot Image" class="dot-img" />
@@ -138,6 +138,129 @@
             experiences.
           </p>
         </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project" id="projects">
+      <span>Projects</span>
+      <div class="project-body">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="images/cardIcon.png"
+              alt="Card Icon Image"
+              class="card-icon"
+            />
+            <!-- <img
+              src="images/cmemboApp0.png"
+              class="card-img"
+              alt="Cmembo App Image"
+            /> -->
+            <h5 class="card-title">Cmembo</h5>
+            <p class="card-text">
+              This application designed specifically for the barangay's admin to
+              efficiently manage and organize appointments. Admins can schedule
+              and monitor document processing times, ensuring smoother
+              operations and reducing wait times for residents.
+            </p>
+            <a
+              href="https://queueby.vercel.app"
+              target="_blank"
+              class="btn-primary"
+              >View App</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="images/cardIcon1.png"
+              alt="Card Icon Image"
+              class="card-icon"
+            />
+            <!-- <img
+              src="images/todoListApp0.png"
+              class="card-img"
+              alt="TodoList Web App Image"
+            /> -->
+            <h5 class="card-title">TodoList</h5>
+            <p class="card-text">
+              This application boosts productivity by helping users prioritize
+              tasks, stay organized, and achieve their goals efficiently.
+            </p>
+            <a
+              href="https://todolist-tms.vercel.app"
+              target="_blank"
+              class="btn-primary"
+              >View App</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="images/cardIcon2.png"
+              alt="Card Icon Image"
+              class="card-icon"
+            />
+            <!-- <img
+              src="images/todoListApp0.png"
+              class="card-img"
+              alt="TodoList Web App Image"
+            /> -->
+            <h5 class="card-title">Omnifood</h5>
+            <p class="card-text">
+              Ultimate food companion that helps you take the stress out of meal
+              planning, cooking, and dining.
+            </p>
+            <a
+              href="https://omnifood-proj-08.netlify.app"
+              target="_blank"
+              class="btn-primary"
+              >View App</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="images/cardIcon2.png"
+              alt="Card Icon Image"
+              class="card-icon"
+            />
+            <!-- <img
+              src="images/todoListApp0.png"
+              class="card-img"
+              alt="TodoList Web App Image"
+            /> -->
+            <h5 class="card-title">Personal Portfolio</h5>
+            <p class="card-text">
+              This website portfolio showcases my web development skills and
+              projects, built with Next.js.
+            </p>
+            <a
+              href="https://johnpatrickisidoro.vercel.app"
+              target="_blank"
+              class="btn-primary"
+              >View App</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+      <div class="contact-body">
+        <span>Let's get in touch</span>
+        <p>Let's talk about you & your challenges.</p>
+        <span>Contact Information</span>
+        <ul>
+          <li>jpisidoro04@gmail.com</li>
+          <li>Taguig City</li>
+          <li>+63 991 978 5885</li>
+        </ul>
       </div>
     </section>
     <script src="index.js"></script>
