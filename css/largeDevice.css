@@ -36,7 +36,6 @@
 
   /* HERO */
   .hero {
-    margin-top: 110px;
     position: relative;
     z-index: 1;
     height: 550px;
@@ -118,5 +117,37 @@
   .card-body {
     display: flex;
     justify-content: center;
+  }
+
+  /* CONTACT */
+  .contact-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin-left: 60px;
+  }
+  .contact-circle {
+    width: 600px;
+    height: 450px;
+    background-color: #d4c49c;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50%;
+    right: 2%;
+    clip-path: inset(0 0 50% 0);
+  }
+  .form-body {
+    z-index: 1;
+    width: 500px;
+    height: 750px;
+    padding: 3rem;
+    position: absolute;
+    right: 6%;
+  }
+
+  /* FOOTER */
+  .footer-icons {
+    font-size: xx-large;
   }
 }

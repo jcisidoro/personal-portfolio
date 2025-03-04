@@ -10,7 +10,6 @@
     position: relative;
   }
   .nav-links {
-    display: none;
     gap: 2rem;
     flex-direction: column;
     position: absolute;
@@ -19,7 +18,9 @@
     background-color: white;
     width: 100%;
     padding: 2rem;
-    opacity: 90%;
+    opacity: 0;
+    transform: translateX(-350px);
+    transition: 0.5s ease-in-out;
   }
   .nav-links a,
   li {
@@ -27,6 +28,7 @@
     list-style: none;
     color: #051434;
     font-size: large;
+    margin-bottom: 1rem;
   }
   .logo-body {
     display: flex;
@@ -46,7 +48,8 @@
     cursor: pointer;
   }
   .nav-links.show-menu {
-    display: flex;
+    transform: translateY(0);
+    opacity: 90%;
   }
 
   /* HERO */
@@ -145,7 +148,7 @@
     height: 702px;
   }
   .hero-body {
-    height: 650px;
+    height: 550px;
   }
   .image-container {
     height: 45vh;
@@ -155,7 +158,7 @@
     background-color: #d4c49c;
     width: 95vw;
     height: 400px;
-    bottom: -30.8%;
+    bottom: -36.5%;
     z-index: 3;
   }
 
@@ -174,5 +177,10 @@
   /* PROJECTS */
   .card {
     width: 100%;
+  }
+
+  /* CONTACT */
+  .contact-body {
+    padding: 1.5rem;
   }
 }
