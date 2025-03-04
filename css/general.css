@@ -5,6 +5,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 /* NAVIGATION */
 .header {
   display: flex;
@@ -15,6 +21,11 @@
   width: 100%;
   z-index: 3;
   transition: 0.3s ease-in-out;
+}
+
+.nav-links li:hover {
+  transition: 0.3s ease-in-out;
+  scale: 1.1;
 }
 
 .nav-body {
@@ -43,6 +54,12 @@
   font-weight: 600;
   opacity: 90%;
   width: 250px;
+}
+.hero-body h1,
+h3,
+span {
+  color: #051434;
+  opacity: 90%;
 }
 .hero-btn:hover {
   transition: 0.3s ease-in-out;
@@ -112,6 +129,12 @@
   filter: grayscale(100%);
 }
 
+/* ABOUT ME */
+.about-paragraph {
+  color: #051434;
+  opacity: 90%;
+}
+
 /* PROJECTS */
 .project {
   width: auto;
@@ -138,6 +161,8 @@
 .card {
   width: 100%;
   border: 0 !important;
+  color: #051434;
+  opacity: 90%;
 }
 .card:hover {
   box-shadow: 0 4px 14px rgb(0 0 0 / 0.15);
@@ -205,6 +230,8 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  color: #051434;
+  opacity: 90%;
 }
 .contact-intro p {
   font-size: x-large;
@@ -238,6 +265,8 @@
 }
 .form-body h4 {
   font-weight: 600;
+  color: #051434;
+  opacity: 90%;
 }
 .email-info input,
 .phone-info input,
@@ -257,6 +286,11 @@
   border: 0;
   font-weight: 600;
   margin-top: 1rem;
+  opacity: 90%;
+}
+.form-btn:hover {
+  transition: 0.3s ease-in-out;
+  scale: 1.05;
 }
 .contactArrow-img {
   display: none;
