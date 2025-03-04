@@ -177,6 +177,15 @@ span {
 .card:nth-child(3n + 3) {
   background-color: #e0f1f1 !important;
 }
+.card:nth-child(3n + 4) {
+  background-color: #e0f1f1 !important;
+}
+.card:nth-child(3n + 5) {
+  background-color: #e8ece4 !important;
+}
+.card:nth-child(3n + 6) {
+  background-color: #fff4dc !important;
+}
 .card-body {
   padding: 20px;
   display: flex;
